@@ -10,7 +10,7 @@ print(df.head())
 
 # --- 2. Calcular mean y std para todas las columnas numéricas ---
 stats = df.describe().loc[["mean", "std"]]
-print("\nMedia (mean) y desviación estándar (std):")
+print("\nMean and std:")
 print(stats)
 
 # --- 3. Graficar cada eje (opcional) ---
